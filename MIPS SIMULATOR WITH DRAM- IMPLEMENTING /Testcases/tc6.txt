@@ -1,4 +1,0 @@
-addi $r1 , $zero , 4 
-sw $r1 , 0($zero)
-lw $r2 , 0($zero)
-add $r3 , $r2 , $r2
