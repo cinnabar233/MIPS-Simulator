@@ -1,0 +1,9 @@
+addi $r6 , $zero , 6
+sw $r6 , 0($r1)
+loop : 
+	lw $r4 , 0($r1)
+	beq $r4 , $zero, exit 
+	addi $r4 , $r4 , -1
+	sw $r4 , 0($r1)
+	j loop
+exit:

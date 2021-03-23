@@ -1,0 +1,7 @@
+main:
+	addi $r1, $zero, 4
+	addi $r4,$zero,6
+	sw $r1,0($zero)
+	sw $r4,4($zero)
+	lw $r2,0($zero)
+	lw $r3,0($r2)
